@@ -3,7 +3,7 @@
   SIMULACIÓN COMPLETA DEL SENSOR DE FLUJO YF-S201
   Versión completamente comentada para entender CADA línea
   ====================================================================
-  Fecha: 2024
+  Fecha: 2025
   Descripción: Emula el funcionamiento del sensor YF-S201 usando
                interrupción óptica por infrarrojos
   ====================================================================
