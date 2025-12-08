@@ -20,9 +20,9 @@ void loop() {
   entrada=digitalRead(sensor);
   if(entrada == HIGH){
     digitalWrite(led,HIGH);
-    delay(2000);
+    delay(200);
     digitalWrite(led,LOW);
-    delay(2000);
+    delay(200);
     if(!sensorActivado){
       contador++;
       velocidad = 2*pi*contador;
@@ -31,16 +31,16 @@ void loop() {
       Serial.print("Activación #");
       Serial.println(contador);
       Serial.println(velocidad);
-      for (int i = 0; i < 3; i++){
+      for (int i = 0; i < 15; i++){
         digitalWrite(led, HIGH);
-        delay(2000);
+        delay(200);
         digitalWrite(led, LOW);
-        delay(2000);
+        delay(200);
       }
     }
-    delay(2000);
+    delay(200);
     digitalWrite(led,LOW);
-    delay(2000);
+    delay(200);
   }
   else{
   digitalWrite(led,LOW);
