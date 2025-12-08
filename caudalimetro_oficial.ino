@@ -30,7 +30,7 @@ void loop() {
       sensorActivado = true;
       Serial.print("Activación #");
       Serial.println(contador);
-      Serial.println(velocidad);
+      Serial.println(velocidad,"m/s");
       for (int i = 0; i < 15; i++){
         digitalWrite(led, HIGH);
         delay(200);
