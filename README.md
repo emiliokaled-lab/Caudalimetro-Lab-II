@@ -14,4 +14,4 @@ se encuentra de frente el **receptor** y el **emisor** infrarrojo a una determin
 por una elice que va a ser movida por el flujo que pasa atraves del tubo.
 
 Esto mediante código va a caluclar la velocidad del fluido segun que tantas interrupciones tenga en un determinado lapso de tiempo.
-![Imágen ejemplo del circuito]()
+![Imágen ejemplo del circuito](C:\Users\emili\OneDrive\Imágenes\Capturas de pantalla)
